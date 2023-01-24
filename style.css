@@ -23,7 +23,8 @@ body {
 
   #link {
     flex-direction: column;
-    gap: 24px;
+    gap: 32px;
+    padding-top: 40px;
   }
 
   #icons, #text {
@@ -34,6 +35,10 @@ body {
 @media (min-width: 420px) {
   #title {
     align-items: center;
+  }
+
+  #link {
+    padding-top: 32px;
   }
 }
 
@@ -73,7 +78,6 @@ b {
   border-top: 1px solid #96969C;
   display: flex;
   justify-content: space-between;
-  padding-top: 32px;
 }
 
 p {
