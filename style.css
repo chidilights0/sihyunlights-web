@@ -9,6 +9,12 @@
   }
 }
 
+@keyframes symbol {
+  50% {
+    opacity: 0;
+  }
+}
+
 body {
   animation: start 2s cubic-bezier(0.5, 0, 0, 1);
 
@@ -117,4 +123,8 @@ b {
 #text {
   display: flex;
   gap: 32px;
+}
+
+#symbol {
+  animation: symbol 2s infinite ;
 }
