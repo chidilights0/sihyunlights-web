@@ -1,4 +1,17 @@
+@keyframes start {
+  from {
+    opacity: 0;
+    scale: 0.8;
+  }
+  to {
+    opacity: 100%;
+    scale: 1;
+  }
+}
+
 body {
+  animation: start 2s cubic-bezier(0.5, 0, 0, 1);
+
   font-family: neue-haas-grotesk-display,sans-serif;
   background-color: #D6D6DA;
   color: #58585E;
