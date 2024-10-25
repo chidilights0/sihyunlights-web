@@ -50,8 +50,8 @@
 
 body {
   font-family: neue-haas-grotesk-display,sans-serif;
-  background-color: #1F1C1A;
-  color: #FFC499;
+  background-color: #12131C;
+  color: #a9aede;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,6 +99,7 @@ h1 {
   font-size: 64px;
   line-height: 100%;
   margin: 0;
+  color: #FFCC57;
 }
 
 p {
@@ -108,19 +109,21 @@ p {
 }
 
 a {
-  color: #FFC499;
+  color: #a9aede;
   transition: 0.2s;
 }
 a:hover {
-  color: #FF8F3D;
+  color: #FFCC57;
+  text-shadow: #ffcd5763 0px 0px 32px;
 }
 
 b {
   font-weight: 500;
+  text-shadow: #ffcd5763 0px 0px 64px;
 }
 
 #line {
-  border: 0.5px solid #FFC499;
+  border: 0.5px solid #363a5d;
   height: 320px;
   animation: linestart 1s cubic-bezier(0.5, 0, 0, 1);
 }
@@ -139,7 +142,7 @@ b {
 }
 
 #link {
-  border-top: 1px solid #FFC499;
+  border-top: 1px solid #363a5d;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -158,12 +161,12 @@ b {
 }
 
 #symbol {
-  animation: symbol 1s step-end infinite;
+  animation: symbol 2s infinite;
 }
 
 #noise {
   animation: bgloop 1s step-end infinite;
-  background: url(image/noise.jpg), #1F1C1A;
+  background: url(image/noise.jpg), #12131C;
   background-size: 1100px;
   background-repeat: repeat;
   background-blend-mode: overlay, normal;
