@@ -51,7 +51,7 @@
 body {
   font-family: neue-haas-grotesk-display,sans-serif;
   background-color: #11121a;
-  color: #a9aede;
+  color: #bbbed8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,7 +99,7 @@ h1 {
   font-size: 64px;
   line-height: 100%;
   margin: 0;
-  color: #FFCC57;
+  color: #FFE669;
 }
 
 p {
@@ -109,21 +109,21 @@ p {
 }
 
 a {
-  color: #a9aede;
+  color: #999cb9;
   transition: 0.2s;
 }
 a:hover {
-  color: #FFCC57;
-  text-shadow: #ffcd5763 0px 0px 32px;
+  color: #FFE669;
+  text-shadow: #FFE66963 0px 0px 32px;
 }
 
 b {
   font-weight: 500;
-  text-shadow: #ffcd5763 0px 0px 64px;
+  text-shadow: #FFE66963 0px 0px 64px;
 }
 
 #line {
-  border: 0.5px solid #363a5d;
+  border: 0.5px solid #343543;
   height: 320px;
   animation: linestart 1s cubic-bezier(0.5, 0, 0, 1);
 }
@@ -142,7 +142,7 @@ b {
 }
 
 #link {
-  border-top: 1px solid #363a5d;
+  border-top: 1px solid #343543;
   width: 100%;
   display: flex;
   justify-content: space-between;
