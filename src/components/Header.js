@@ -22,8 +22,13 @@ function Header() {
     }, []);
     
     const location = useLocation();
-
     const { headerRef } = useContext(HeaderContext);
+
+    const handleNavClick = (path) => {
+        if (location.pathname === path) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
 
     return (
         <header ref={headerRef} className={scrolled ? 'scrolled' : ''}>
@@ -87,18 +92,21 @@ function Header() {
                         <Link
                         to='/'
                         className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
+                        onClick={() => handleNavClick('/')}
                         >home</Link>
                     </li>
                     <li>
                         <Link
                         to='/projects'
                         className={`nav-link ${location.pathname === '/projects' ? 'active' : ''}`}
+                        onClick={() => handleNavClick('/projects')}
                         >projects</Link>
                     </li>
                     <li>
                         <Link
                         to='/history'
                         className={`nav-link ${location.pathname === '/history' ? 'active' : ''}`}
+                        onClick={() => handleNavClick('/history')}
                         >history</Link>
                     </li>
                     <li>
