@@ -1,29 +1,31 @@
-import React from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useLocation } from 'react-router-dom';
 
 const variants = {
-  initial: { opacity: 0, y: 64 },
-  enter: { opacity: 1, y: 0 },
-  exit: { opacity: 0, scale: 0.8 }
+  initial: { opacity: 0, scale: 1.05 },
+  enter: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: { duration: 1, ease: [0, 0.8, 0.4, 1] }
+  },
+  exit: {
+    opacity: 0,
+    y: 32,
+    transition: { duration: 0.2, ease: [0.5, 0, 0.2, 1] }
+  }
 };
 
 function Transition({ children }) {
   const location = useLocation();
-  const controls = useAnimation();
-
-  React.useEffect(() => {
-    controls.start('enter');
-  }, [location.pathname, controls]);
 
   return (
     <motion.div
       key={location.pathname}
       initial="initial"
-      animate={controls}
+      animate="enter"
       exit="exit"
       variants={variants}
-      transition={{ duration: 0.8, ease: [0, 1, 0.7, 1] }}
       style={{ transformOrigin: 'top center' }}
     >
       {children}
