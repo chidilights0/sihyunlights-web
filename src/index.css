@@ -1,16 +1,49 @@
+:root {
+  --GS10: #11121A;
+  --GS20: #191b24;
+  --GS60: #8789a3;
+  --GS70: #c5c8e0;
+  --GS100: #FFFFFF;
+  --Primary: #FFE669;
+  --Border: #c0c6f838;
+  --BorderLight: #c0c6f823;
+  --DarkGlass: #11121aaf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: neue-haas-grotesk-display, Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: /*neue-haas-grotesk-display,*/ Pretendard Variable, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  text-align: center;
-  background-color: rgb(245, 245, 245);
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
+  text-align: center;
+  background-color: var(--GS10);
+  color: var(--GS70);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+#root > div { /* Wrapper */
+  width: 100%;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
 }
 
 code {
@@ -18,6 +51,7 @@ code {
     monospace;
 }
 
+/* 기본 리스트 스타일 */
 li {
   list-style: none;
 }
@@ -29,19 +63,31 @@ ul {
   justify-content: center;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-}
 
+/* 기본 텍스트 스타일 */
 p {
   line-height: 150%;
 }
 
+h1, h2, h3 {
+  color: var(--GS100);
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
 h1 {
+  font-size: 48px;
+}
+
+h2 {
   font-size: 32px;
 }
 
-h1, p, ul {
-  margin: 0;
+a {
+  color: var(--GS75);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }

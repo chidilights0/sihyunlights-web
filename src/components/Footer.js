@@ -1,18 +1,18 @@
 import React from "react";
+import "./Footer.css"
 
 function Footer() {
     return (
-        <header>
-            <h1>footer</h1>
-            <nav>
-                <ul>
-                    <li><a href="/">Introduction</a></li>
-                    <li><a href="projects">Projects</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <footer>
+            <p>© 2024 sihyunlights</p>
+            <div id="footerMenu">
+                <a href="mailto:mail@sihyunlights.com">send mail</a>
+                <div class="divider"></div>
+                <a href="https://github.com/sihyunlts/sihyunlights-web" target="_blank" rel="noopener noreferrer">
+                help my website (repository)
+                </a>
+            </div>
+        </footer>
     );
 }
 

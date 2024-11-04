@@ -1,0 +1,35 @@
+@media (min-width: 641px) {
+    footer {
+        padding: 40px 48px;
+    }
+}
+
+@media (max-width: 640px) {
+    footer {
+        padding: 0px 20px 116px 20px;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+footer {
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    color: var(--GS60);
+    font-size: 15px;
+}
+
+#footerMenu {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    height: 12px;
+    width: 1px;
+    background-color: var(--Border);
+}

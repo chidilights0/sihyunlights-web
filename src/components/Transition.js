@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 const variants = {
   initial: { opacity: 0, y: 64 },
   enter: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -64 }
+  exit: { opacity: 0, scale: 0.8 }
 };
 
 function Transition({ children }) {
@@ -23,7 +23,8 @@ function Transition({ children }) {
       animate={controls}
       exit="exit"
       variants={variants}
-      transition={{ duration: 0.4, ease: [0, 1.3, 0.7, 1] }}
+      transition={{ duration: 0.8, ease: [0, 1, 0.7, 1] }}
+      style={{ transformOrigin: 'top center' }}
     >
       {children}
     </motion.div>
