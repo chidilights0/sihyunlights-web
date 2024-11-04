@@ -102,7 +102,7 @@ nav ul {
 }
 
 .nav-link {
-    padding: 0px 16px;
+    padding: 0px 12px;
     border-radius: 128px;
     line-height: 38px;
     transition: transform 0.2s;

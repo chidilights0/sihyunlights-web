@@ -101,10 +101,13 @@ function Header() {
                         className={`nav-link ${location.pathname === '/history' ? 'active' : ''}`}
                         >history</Link>
                     </li>
+                    <li>
+                        <a className='nav-link' target="_blank" rel="noopener noreferrer" href="https://blog.sihyunlights.com/">blog</a>
+                    </li>
                 </ul>
             </nav>
             </div>
-            <a href="https://youtu.be/StAy4_K6NNI" target="_blank" rel="noopener noreferrer" id="textR">website</a>
+            <a href="https://youtu.be/StAy4_K6NNI" id="textR">website</a>
         </header>
     );
 }
