@@ -10,6 +10,7 @@ function Main() {
 
             <section class="maxWidth">
                 <h1>빛을 통해 즐거움을 전달합니다</h1>
+                <p>Like light spreading in all directions, revealing the world, treasured things, and hidden details, I hope that one day my stories, as they reach others, will bring new joy to someone.</p>
                 <p>사방으로 퍼져나가며 사물과 세상, 그리고 소중한 무언가를 볼 수 있게 해주는 빛처럼, 언젠가는 퍼져나간 나의 이야기가 누군가에게 새로운 즐거움을 가져다주기를 바랍니다.</p>
             </section>
             <hr class="maxWidth"/>
