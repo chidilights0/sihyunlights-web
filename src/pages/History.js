@@ -9,7 +9,7 @@ function History() {
             <h1>history</h1>
             <p>In Progress</p>
         </section>
-        <hr class="maxWidth"/>
+        <div className="hrWrapper maxWidth"><hr/></div>
     </div>
     )
 }

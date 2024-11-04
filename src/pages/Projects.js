@@ -9,7 +9,7 @@ function Projects() {
                 <h1>projects</h1>
                 <p>In Progress</p>
             </section>
-            <hr class="maxWidth"/>
+            <div className="hrWrapper maxWidth"><hr/></div>
 
             <section class="maxWidth">
                 <h2>visual / cover</h2>
