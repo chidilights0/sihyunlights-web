@@ -104,7 +104,7 @@ function Header() {
                 </ul>
             </nav>
             </div>
-            <a href="/" id="textR">website</a>
+            <a href="https://youtu.be/StAy4_K6NNI" target="_blank" rel="noopener noreferrer" id="textR">website</a>
         </header>
     );
 }
