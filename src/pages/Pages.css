@@ -155,3 +155,8 @@ img, iframe {
     font-weight: 400;
     color: var(--GS60);
 }
+
+.titleCenter {
+    text-align: center;
+    gap: 16px;
+}

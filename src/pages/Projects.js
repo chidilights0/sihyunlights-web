@@ -5,9 +5,9 @@ function Projects() {
     return (
         <div class="sectionContainer">
             <div class="noBanner"></div>
-            <section class="maxWidth">
+            <section class="maxWidth titleCenter">
                 <h1>projects</h1>
-                <p>In Progress</p>
+                <p>List of my projects in design, visual arts and music.</p>
             </section>
             <div className="hrWrapper maxWidth"><hr/></div>
 
