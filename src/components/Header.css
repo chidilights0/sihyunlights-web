@@ -21,12 +21,18 @@ header {
     #headerMenu {
         justify-content: center;
     }
+    #headerLinks ul:hover, nav ul:hover {
+        transform: translateY(4px);
+    }
 }
 
 @media (max-width: 640px) {
     nav {
         position: fixed;
         bottom: 32px;
+    }
+    #headerLinks ul:hover, nav ul:hover {
+        transform: translateY(0px);
     }
 }
 
@@ -75,10 +81,6 @@ header.scrolled #textL {
     height: 48px;
     border: 1px solid var(--Border);
     border-radius: 40px;
-}
-
-#headerLinks ul:hover, nav ul:hover {
-    transform: translateY(4px);
 }
 
 #headerLinks ul li:hover {
