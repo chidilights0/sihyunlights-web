@@ -11,6 +11,12 @@ header {
     transition: height 0.4s;
 }
 
+@media (min-width: 1081px) {
+    #headerLinks ul:hover, nav ul:hover {
+        transform: translateY(4px);
+    }
+}
+
 @media (max-width: 1080px) {
     header {
         justify-content: center;
@@ -20,9 +26,6 @@ header {
     }
     #headerMenu {
         justify-content: center;
-    }
-    #headerLinks ul:hover, nav ul:hover {
-        transform: translateY(4px);
     }
 }
 
