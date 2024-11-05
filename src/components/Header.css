@@ -32,7 +32,10 @@ header {
 @media (max-width: 640px) {
     nav {
         position: fixed;
-        bottom: 32px;
+        bottom: 24px;
+    }
+    header {
+        padding: 24px 48px;
     }
     #headerLinks ul:hover, nav ul:hover {
         transform: translateY(0px);
