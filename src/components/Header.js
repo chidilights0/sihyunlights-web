@@ -41,7 +41,7 @@ function Header() {
                         href="https://behance.net/sihyunlights"
                         target="_blank" rel="noopener noreferrer"
                         aria-label="Behance"
-                        ><i class="fa-brands fa-behance fa-lg"></i>
+                        ><i className="fa-brands fa-behance fa-lg"></i>
                     </a>
                 </li>
                 <li>
@@ -49,7 +49,7 @@ function Header() {
                         href="https://youtube.com/@sihyunlights"
                         target="_blank" rel="noopener noreferrer"
                         aria-label="YouTube"
-                        ><i class="fa-brands fa-youtube fa-lg"></i>
+                        ><i className="fa-brands fa-youtube fa-lg"></i>
                     </a>
                 </li>
                 <li>
@@ -57,7 +57,7 @@ function Header() {
                         href="https://x.com/sihyunlights"
                         target="_blank" rel="noopener noreferrer"
                         aria-label="X (Twitter)"
-                        ><i class="fa-brands fa-x-twitter fa-lg"></i>
+                        ><i className="fa-brands fa-x-twitter fa-lg"></i>
                     </a>
                 </li>
                 <li>
@@ -65,7 +65,7 @@ function Header() {
                         href="https://instagram.com/sihyunlights"
                         target="_blank" rel="noopener noreferrer"
                         aria-label="Instagram"
-                        ><i class="fa-brands fa-instagram fa-lg"></i>
+                        ><i className="fa-brands fa-instagram fa-lg"></i>
                     </a>
                 </li>
                 <li>
@@ -73,7 +73,7 @@ function Header() {
                         href="https://github.com/sihyunlts"
                         target="_blank" rel="noopener noreferrer"
                         aria-label="GitHub"
-                        ><i class="fa-brands fa-github fa-lg"></i>
+                        ><i className="fa-brands fa-github fa-lg"></i>
                     </a>
                 </li>
                 <li>
@@ -81,7 +81,7 @@ function Header() {
                         href="https://soundcloud.com/sihyunlights"
                         target="_blank" rel="noopener noreferrer"
                         aria-label="SoundCloud"
-                        ><i class="fa-brands fa-soundcloud fa-lg"></i>
+                        ><i className="fa-brands fa-soundcloud fa-lg"></i>
                     </a>
                 </li>
               </ul>

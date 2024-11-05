@@ -3,9 +3,9 @@ import "./Pages.css"
 
 function History() {
     return (
-        <div class="sectionContainer">
-        <div class="noBanner"></div>
-        <section class="maxWidth">
+        <div className="sectionContainer">
+        <div className="noBanner"></div>
+        <section className="maxWidth">
             <h1>history</h1>
             <p>In Progress</p>
         </section>

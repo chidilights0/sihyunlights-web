@@ -5,10 +5,10 @@ import "./Pages.css";
 
 function Main() {
     return (
-        <div class="sectionContainer">
-            <img class="banner" src="/Main.jpg" alt="banner"></img>
+        <div className="sectionContainer">
+            <img className="banner" src="/Main.jpg" alt="banner"></img>
             
-            <section class="maxWidth">
+            <section className="maxWidth">
                 <div id="headContainer">
                 <div id="symbol"><div><img src="/Symbol.svg" alt="sihyunlights symbol" /></div></div>
                     <div id="profileInfo">
@@ -22,7 +22,7 @@ function Main() {
             </section>
             <div className="hrWrapper maxWidth"><hr/></div>
 
-            <section class="maxWidth">
+            <section className="maxWidth">
                 <h2>highlights</h2>
                 <div className="List">
                     <iframe src="https://www.youtube.com/embed/WV9Ho5fx4Lk?color=white" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
