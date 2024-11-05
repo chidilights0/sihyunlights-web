@@ -81,7 +81,7 @@ header.scrolled #textL {
     transition: transform 0.3s;
     background-color: var(--DarkGlass);
     backdrop-filter: blur(16px);
-    height: 48px;
+    height: 52px;
     border: 1px solid var(--Border);
     border-radius: 40px;
 }
@@ -107,9 +107,9 @@ nav ul {
 }
 
 .nav-link {
-    padding: 0px 12px;
+    padding: 0px 16px;
     border-radius: 128px;
-    line-height: 38px;
+    line-height: 42px;
     transition: transform 0.2s;
 }
 
@@ -121,5 +121,5 @@ nav ul {
     background-color: var(--GS70);
     color: var(--GS10);
     font-weight: 600;
-    letter-spacing: -0.3px;
+    letter-spacing: -0.4px;
 }
