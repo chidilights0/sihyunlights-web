@@ -101,23 +101,40 @@ img, iframe {
     justify-content: flex-end;
 }
 
+#symbol > div {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    top: -128px;
+    transition: 0.3s;
+}
+
 #symbol img {
     border: 0px;
     position: absolute;
-    width: 128px;
-    top: -128px;
+    width: 100%;
     margin-left: auto;
     animation: bounce 2s ease-in-out infinite alternate;
 }
 
+#symbol > div:hover {
+    filter: drop-shadow(0 0 32px var(--PrimaryShadow));
+    transform: translateY(-12px);
+}
+
+#symbol img:hover {
+    animation-play-state: paused;
+}
+
 @keyframes bounce {
     0% {
-      transform: translateY(-8px);
+        transform: translateY(-8px) scale(1);
+        filter: drop-shadow(0 0 16px var(--PrimaryShadow));
     }
     100% {
-      transform: translateY(8px);
+        transform: translateY(8px) scale(1);
     }
-  }
+}
 
 /* Profile */
 #profileInfo {

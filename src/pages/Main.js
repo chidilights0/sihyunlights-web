@@ -10,7 +10,7 @@ function Main() {
             
             <section class="maxWidth">
                 <div id="headContainer">
-                <div id="symbol"><img src="/Symbol.svg" alt="sihyunlights symbol" /></div>
+                <div id="symbol"><div><img src="/Symbol.svg" alt="sihyunlights symbol" /></div></div>
                     <div id="profileInfo">
                         <img src="/Profile.jpg" alt="sihyunlights profile" />
                         <p>백시현 (Si Hyun Baek)</p>
