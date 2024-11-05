@@ -2,8 +2,11 @@
     section {
         padding: 64px 48px;
     }
-    .List {
+    .ListL {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .ListM {
+        grid-template-columns: repeat(3, 1fr);
     }
     .hrWrapper {
         padding: 0 48px;
@@ -14,7 +17,10 @@
     section {
         padding: 64px 24px;
     }
-    .List {
+    .ListL {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ListM {
         grid-template-columns: repeat(1, 1fr);
     }
     .hrWrapper {
@@ -72,16 +78,18 @@ img, iframe {
     gap: 16px;
 }
 
+
+/* List */
 .List {
     display: grid;
     grid-auto-columns: min-content;
     gap: 16px;
 }
-
 .List img, iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
 }
+
 
 .noBanner {
     height: 80px;
@@ -94,13 +102,11 @@ img, iframe {
 }
 
 /* Symbol */
-
 #symbol {
     position: relative;
     display: flex;
     justify-content: flex-end;
 }
-
 #symbol > div {
     position: absolute;
     width: 128px;
@@ -108,7 +114,6 @@ img, iframe {
     top: -128px;
     transition: 0.3s;
 }
-
 #symbol img {
     border: 0px;
     position: absolute;
@@ -116,16 +121,13 @@ img, iframe {
     margin-left: auto;
     animation: bounce 2s ease-in-out infinite alternate;
 }
-
 #symbol > div:hover {
     filter: drop-shadow(0 0 32px var(--PrimaryShadow));
     transform: translateY(-12px);
 }
-
 #symbol img:hover {
     animation-play-state: paused;
 }
-
 @keyframes bounce {
     0% {
         transform: translateY(-8px) scale(1);
@@ -146,4 +148,10 @@ img, iframe {
     width: 28px;
     height: 28px;
     border-radius: 28px;
+}
+
+
+.unHighlight {
+    font-weight: 400;
+    color: var(--GS60);
 }

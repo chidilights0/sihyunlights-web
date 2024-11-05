@@ -1,8 +1,6 @@
 import React from "react";
 import "./Pages.css";
 
-
-
 function Main() {
     return (
         <div className="sectionContainer">
@@ -24,13 +22,13 @@ function Main() {
 
             <section className="maxWidth">
                 <h2>highlights</h2>
-                <div className="List">
+                <div className="List ListL">
                     <iframe src="https://www.youtube.com/embed/WV9Ho5fx4Lk?color=white" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <a href="https://www.instagram.com/p/C2PcizmhwEC/" target="_blank" rel="noopener noreferrer">
-                    <img src="/PeopleLogistics.jpg" alt="국민택배"></img>
+                        <img src="/PeopleLogistics.jpg" alt="People Logistics"></img>
                     </a>
                     <a href="https://x.com/siriusinyoursky" target="_blank" rel="noopener noreferrer">
-                    <img src="/fluid.jpg" alt="fluid"></img>
+                        <img src="/fluid.jpg" alt="fluid"></img>
                     </a>
                     <iframe src="https://www.youtube.com/embed/CCoEz_RywPI?color=white" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
