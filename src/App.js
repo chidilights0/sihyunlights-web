@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Main from "./pages/Main";
 import Projects from "./pages/Projects";
 import History from "./pages/History";
+import NotFound from "./pages/History";
 
 import "./App.css";
 import Transition from "./components/Transition";
@@ -50,6 +51,14 @@ function ContentWithTransition() {
           element={
             <Transition>
               <History />
+            </Transition>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <Transition>
+              <NotFound />
             </Transition>
           }
         />
